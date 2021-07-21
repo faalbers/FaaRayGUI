@@ -5,6 +5,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(FaaRayGUI VERSION 0.1 LANGUAGES CXX)
 
+execute_process(COMMAND git submodule update --init --recursive)
+
 #add_compile_definitions(CLASS_DEBUG)
 #add_compile_definitions(SHARED_POINTER_DEBUG)
 
