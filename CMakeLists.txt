@@ -18,10 +18,10 @@ set(CMAKE_AUTORCC ON)
 
 find_package(Qt6 COMPONENTS Widgets OpenGLWidgets REQUIRED)
 
-#file(GLOB GUI_SOURCES *.cpp )
+add_subdirectory(extern/FaaRay)
 
-#get_target_property(GFA_SOURCE_DIR GFA SOURCE_DIR)
-#get_target_property(FAARAY_SOURCE_DIR FaaRay SOURCE_DIR)
-#add_library(GUI ${GUI_SOURCES})
-#target_link_libraries(GUI PRIVATE Qt6::Widgets FaaRay)
-#target_include_directories(GUI PUBLIC ${GFA_SOURCE_DIR} ${FAARAY_SOURCE_DIR})
+file(GLOB FAARAYGUI_SOURCES *.cpp )
+
+add_executable(${PROJECT_NAME} ${FAARAYGUI_SOURCES})
+target_link_libraries(${PROJECT_NAME} PRIVATE Qt6::Widgets FaaRay GFA)
+

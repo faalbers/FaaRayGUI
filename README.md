@@ -1,3 +1,8 @@
+adding FaaRay as submodel:
+git submodule add https://github.com/faalbers/FaaRay extern/FaaRay
+git submodule update --init --recursive
+cd extern/FaaRay
+
 https://miro.com/app/board/o9J_l-Ka3TA=/
 
 Shared Pointer explained:

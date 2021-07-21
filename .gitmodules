@@ -1,0 +1,3 @@
+[submodule "extern/FaaRay"]
+	path = extern/FaaRay
+	url = https://github.com/faalbers/FaaRay
