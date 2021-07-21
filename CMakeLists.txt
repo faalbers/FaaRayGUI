@@ -1,0 +1,27 @@
+cmake_minimum_required(VERSION 3.5)
+
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+project(FaaRayGUI VERSION 0.1 LANGUAGES CXX)
+
+#add_compile_definitions(CLASS_DEBUG)
+#add_compile_definitions(SHARED_POINTER_DEBUG)
+
+set(CMAKE_PREFIX_PATH C:/Qt/6.1.1/mingw81_64)
+
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
+
+set(CMAKE_AUTOUIC ON)
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_AUTORCC ON)
+
+find_package(Qt6 COMPONENTS Widgets OpenGLWidgets REQUIRED)
+
+#file(GLOB GUI_SOURCES *.cpp )
+
+#get_target_property(GFA_SOURCE_DIR GFA SOURCE_DIR)
+#get_target_property(FAARAY_SOURCE_DIR FaaRay SOURCE_DIR)
+#add_library(GUI ${GUI_SOURCES})
+#target_link_libraries(GUI PRIVATE Qt6::Widgets FaaRay)
+#target_include_directories(GUI PUBLIC ${GFA_SOURCE_DIR} ${FAARAY_SOURCE_DIR})
