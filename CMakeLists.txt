@@ -11,7 +11,8 @@ execute_process(COMMAND git submodule update --init --recursive
 #add_compile_definitions(CLASS_DEBUG)
 #add_compile_definitions(SHARED_POINTER_DEBUG)
 
-set(CMAKE_PREFIX_PATH C:/Qt/6.1.1/mingw81_64)
+#set(CMAKE_PREFIX_PATH C:/Qt/6.1.1/mingw81_64)
+set(CMAKE_PREFIX_PATH /Users/frank/Qt/6.1.2/macos)
 
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
