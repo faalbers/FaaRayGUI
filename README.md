@@ -1,5 +1,5 @@
 adding FaaRay as submodel:
-git submodule add https://github.com/faalbers/FaaRay extern/FaaRay
+git submodule add -b stable https://github.com/faalbers/FaaRay extern/FaaRay
 git submodule update --init --recursive
 cd extern/FaaRay
 
