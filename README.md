@@ -1,7 +1,7 @@
 # FaaRayGUI
 
 Qt6 graphic interface using
-[FaaRay](https://www.google.com/)
+[FaaRay](https://github.com/faalbers/FaaRay)
 ray trace rendering library.
 
 ### git clone:
