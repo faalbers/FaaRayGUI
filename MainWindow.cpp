@@ -192,8 +192,9 @@ void MainWindow::sceneBuild_() const
     FaaRay::DiscSPtr discSPtr;
     discSPtr = FaaRay::MakeDiscSPtr();
     discSPtr->setCenter(0, 4, 0);
+    discSPtr->setNormal(0, 1, 0);
     discSPtr->setRadius(6);
-    discSPtr->setMaterialSPtr(phongMaterialASPtr);
+    discSPtr->setMaterialSPtr(phongMaterialBSPtr);
     sceneSPtr->addObject(discSPtr);
 
     /* Cover problem
