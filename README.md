@@ -1,6 +1,6 @@
-adding FaaRay as submodel:
-git submodule add -b stable https://github.com/faalbers/FaaRay extern/FaaRay
-git submodule update --init --recursive
+cloning FaaRayGUI:
+git clone --recursive https://github.com/faalbers/FaaRayGUI.git
+in vscode: ctrl+sht+p Git: Clone (Recursive)
 
 https://miro.com/app/board/o9J_l-Ka3TA=/
 
