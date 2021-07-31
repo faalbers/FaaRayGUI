@@ -20,5 +20,5 @@ ctrl+sht+p -> Git: Clone (Recursive)
 
 ```
 cd FaaRay
-cmake -B build
+cmake -B build -G "MinGW Makefiles" -D CMAKE_BUILD_TYPE:STRING=Release
 cmake --build build --config Release -j 10 --
