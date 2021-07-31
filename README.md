@@ -15,3 +15,10 @@ git clone --recursive https://github.com/faalbers/FaaRayGUI.git
 ```
 ctrl+sht+p -> Git: Clone (Recursive)
 ```
+
+### build
+
+```
+cd FaaRay
+cmake -B build
+cmake --build build --config Release --target install -j 10 --
