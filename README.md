@@ -21,4 +21,4 @@ ctrl+sht+p -> Git: Clone (Recursive)
 ```
 cd FaaRay
 cmake -B build
-cmake --build build --config Release --target install -j 10 --
+cmake --build build --config Release -j 10 --
