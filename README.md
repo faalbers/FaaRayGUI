@@ -26,6 +26,5 @@ cmake --build build --config Release -j 10 --
 ### run
 
 ```
-cd buil
-FaaRay
+cd build; FaaRay
 ```
